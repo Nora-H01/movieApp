@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-movie-orange: #FF8F71;
+    --color-movie-orangeDark: #EF2D1A;
+    --color-movie-grey: #BCBCBC;
+    --color-movie-greyDark: #BBBBBB;
+    --color-movie-black: #15141F;
+    --color-movie-blueDark: #211F30;
+
+    /* letter spacing */
+    --tracking-1: 0em;
+    --tracking-2: 0.025em;
+    --tracking-3: 0.05em;
+    --tracking-4: 0.1em;
+    --tracking-5: =0.025em;
+    --tracking-6: =0.05em;
+    --tracking-7: =0.1em;
+}
+
+:root {
+    --font-lato: "Lato", sans-serif;
+}
