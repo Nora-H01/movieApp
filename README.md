@@ -74,9 +74,11 @@ The frontend should now be running at http://localhost:3000.
 - The connection with the TMDB API is still a work in progress, and for now, placeholders are being used.
 
 ## Images
-<img src="img/home.png" alt="home page" width="200" />
-<img src="img/search.png" alt="discover page" width="200" />
-<img src="img/details.png" alt="detail page" width="200" />
+<div style="display: flex; justify-content: space-between;">
+  <img src="img/home.png" alt="home page" width="200" />
+  <img src="img/search.png" alt="discover page" width="200" />
+  <img src="img/details.png" alt="detail page" width="200" />
+</div>
 
 ## 📋 API Documentation
 
