@@ -27,3 +27,5 @@ dist-ssr
 *.sw?
 
 node_modules/vite/deps/*
+
+/tests
