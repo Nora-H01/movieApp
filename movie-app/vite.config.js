@@ -4,12 +4,13 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  root: "movie-app", // Spécifie le dossier racine
+  root: "movie-app", // Point d'entrée
   plugins: [react(), tailwindcss()],
   server: {
-    port: 3000, // Change ici si nécessaire
+    port: 3000, // Port pour le développement local
   },
   build: {
-    outDir: "../dist", // Assure que le build est à la racine du projet
+    outDir: "dist", // Le dossier dist reste dans movie-app
+    emptyOutDir: true, // Vide le dossier dist avant build
   },
 });

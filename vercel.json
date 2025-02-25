@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "movie-app/vite.config.js",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "movie-app/dist" }
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+  
