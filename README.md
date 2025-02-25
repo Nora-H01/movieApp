@@ -72,6 +72,7 @@ The frontend should now be running at http://localhost:3000.
 
 - Note: Currently, the profile icon redirects to the movie details page instead of the user profile page, as the profile feature is still a work in progress.
 - The connection with the TMDB API is still a work in progress, and for now, placeholders are being used.
+- Sign Up & Login is still a work in progress.
 
 ## Images
 <div style="display: flex; justify-content: space-between;">
