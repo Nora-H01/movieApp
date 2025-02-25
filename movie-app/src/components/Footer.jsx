@@ -6,18 +6,18 @@ function Footer() {
     if (isMovieDetailPage) return null;
 
     return (
-      <footer> 
+      <footer className="mt-auto"> 
 
         <div className="flex justify-center">
             <nav className="py-5">
-                <ul className="flex justify-center uppercase gap-20 text-sm">
+                <ul className="flex justify-center uppercase gap-20 text-sm translate-x-2">
                     <li>
                         <NavLink to="/">
                         {({ isActive }) => (
                             <img
                             src={isActive ? "/footer/homeO.svg" : "/footer/Home.svg"}
                             alt="Home"
-                            className="scale-110"
+                            className="scale-140"
                             />
                         )}
                         </NavLink>
@@ -34,13 +34,13 @@ function Footer() {
                         </NavLink>
                     </li>
                         {/* <NavLink to="/profil"> */}
-                    <li>
-                        <NavLink to="/MovieDetail">
+                        <li>
+                        <NavLink to="/profil">
                         {({ isActive }) => (
                             <img
                             src={isActive ? "/footer/profilO.svg" : "/footer/profil.svg"}
                             alt="Profil"
-                            className="scale-110"
+                            className=""
                             />
                         )}
                         </NavLink>

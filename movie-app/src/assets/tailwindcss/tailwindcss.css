@@ -15,9 +15,9 @@
     --tracking-2: 0.025em;
     --tracking-3: 0.05em;
     --tracking-4: 0.1em;
-    --tracking-5: =0.025em;
-    --tracking-6: =0.05em;
-    --tracking-7: =0.1em;
+    --tracking-5: 0.025em;
+    --tracking-6: 0.05em;
+    --tracking-7: 0.1em;
 }
 
 :root {

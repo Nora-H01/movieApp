@@ -5,9 +5,12 @@ export default function Profil() {
     return (
         <div className="font-lato">
             <section>
-                <div className={`w-full h-30 bg-cyan-800 flex items-center justify-center text-3xl text-white`}>
-                Profil                
-                </div>
+            <div>
+                <h1 className="flex justify-center font-bold text-2xl -tracking-1 mb-6">
+                <span className="bg-gradient-to-tr from-movie-orangeDark to-movie-orange bg-clip-text text-transparent">PRO</span>
+                <span className="text-white">FIL</span>
+                </h1>
+            </div>
             </section>
 
             <section>

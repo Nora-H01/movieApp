@@ -31,12 +31,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="font-lato text-white flex flex-col items-center justify-center">
+    <div className="font-lato w-screen text-white flex flex-col items-center justify-center">
 
       {/* Movie Spotlight */}
         <section>
         <div
-            className="mx-5 w-[327px] h-[191px] rounded-2xl flex items-center justify-center relative overflow-hidden transition-all duration-500"
+            className="mx-5 w-[327px] md:w-screen h-[191px] md:h-[300] bg-cover bg-center rounded-2xl flex items-center justify-center relative overflow-hidden transition-all duration-500"
             style={{
             backgroundImage:
                 spotlightMovies.length > 0
